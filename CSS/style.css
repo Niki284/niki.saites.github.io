@@ -1,0 +1,239 @@
+/* Основа */
+
+body {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.0;
+	color: #828282;
+}
+
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+
+h1, h2, h4, h5, h6{
+	color: #131313;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Блок header */
+
+.header {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.header_inner {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+/* Блок nav */
+
+.nav {
+	text-transform: uppercase;
+}
+
+.nav_link {
+	display: inline-block;
+	color: #828282;
+	text-decoration: none;
+
+	vertical-align: top;
+	margin: 0 12px;
+
+	transition: color .2s linear;
+}
+
+.nav_link:hover {
+	color: #42AAFF;
+}
+
+/* Блок footer */
+
+.footer {
+	background-color: #CED23A;
+	color: #fff;
+	width: 100%;
+	height: 20vh;
+}
+
+.footer_block {
+	padding-top: 20px;
+	width: 100%;
+	max-width: 900px;
+	margin: 10px auto;
+	position: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_block_text {
+	padding-top: 15px;
+
+}
+
+.footer_h1 {
+	color: #fff;
+	position: center;
+}
+
+/* index page */
+
+/* Блок intro */
+
+.intro {
+	width: 100%;
+	height: 65vh;
+	background: url("../Media/intro3.jpg") center no-repeat;
+}
+
+/* Блок welcome*/
+
+.welcome {
+	font-family: 'Roboto Slab', serif;
+	padding-top: 40px;
+	padding-left: 40px;
+	font-size: 18px;
+	color: #42AAFF;
+	line-height: 0.5;
+}
+
+/* Блок about_us */
+
+.about_us {
+	padding: 0;
+	margin: 0 auto;
+	width: auto;
+	height: 150px;
+	background-color: #FFC42E;
+	font-family: 'Roboto Slab', serif;
+}
+
+.about_us_info {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	position: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_us_block {
+	margin-top: 1rem;
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+.about_us_block_title {
+	position: center;
+}
+
+.about_us_block img {
+	width: 40px;
+	height: 40px;
+}
+
+/* Блок news */
+
+.news {
+
+}
+
+.last_news {
+	width: 100%;
+	max-width: 900px;
+	margin: 10px auto;
+	position: center;
+	padding-top: 20px;
+}
+
+.last_news_head {
+
+}
+
+.news_block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+	padding-bottom: 60px;
+
+}
+
+.news_bl {
+	width: 100%;
+	max-width: 300px;
+}
+
+.h3_news {
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* info page */
+
+.info {
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.0;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.basic_info{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+
+}
+
+.info_img {
+	width: 170px;
+	height: 250px;
+}
+
+.basic_info_text {
+	padding-top: 10px;
+}
+
+.bit_block {
+	padding-top: 30px;
+}
+/* gallery page*/
+
+.linup {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content {
+    margin-left: 0.5rem;
+}
+.content-fotos{
+    display: flex;margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.content img{
+    height: 400px;
+}
